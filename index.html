@@ -6,51 +6,23 @@
 
   <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
   <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
-  <script language="javascript" type="text/javascript" src="collaborative_drawing_buttons.js"></script>
+  <script language="javascript" type="text/javascript" src="collaborative_drawing.js"></script>
   <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
-<title>Visual Brush Picker Drawing App</title>
+
+ <title>Collaborative Drawing</title>
     <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database-compat.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
     <script src="sketch.js"></script>
-    <style>
-      body { margin: 0; overflow: hidden; }
-      #brush-panel {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        display: flex;
-        overflow-x: auto;
-        background: rgba(255, 255, 255, 0.9);
-        padding: 5px;
-        border-radius: 10px;
-        z-index: 10;
-        max-width: 95%;
-      }
-      .brush-thumb {
-        width: 40px;
-        height: 40px;
-        object-fit: cover;
-        margin-right: 6px;
-        border: 2px solid transparent;
-        border-radius: 6px;
-        cursor: pointer;
-      }
-      .brush-thumb.active {
-        border-color: #007bff;
-      }
-    </style>
-    <style>
-     body {
+
+  <style>
+    body {
       padding: 0;
       margin: 0;
     }
   </style>
-  </head>
-  
-  
-  <body>
-    <div id="brush-panel"></div>
+</head>
 
+<body>
 </body>
 </html>
