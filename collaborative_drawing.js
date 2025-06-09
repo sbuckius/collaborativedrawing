@@ -24,15 +24,23 @@ function setup() {
 }
 
 function setupFirebase() {
-  const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID"
-  };
+const firebaseConfig = {
+
+  apiKey: "AIzaSyDpF9o590GcpkogURGXm623c3XyyDWLhk8",
+
+  authDomain: "collaborative-drawing-7a87f.firebaseapp.com",
+
+  projectId: "collaborative-drawing-7a87f",
+
+  storageBucket: "collaborative-drawing-7a87f.firebasestorage.app",
+
+  messagingSenderId: "56438623336",
+
+  appId: "1:56438623336:web:c506509f1b442043377fdd",
+
+  measurementId: "G-S0VWNP664F"
+
+};
 
   firebase.initializeApp(firebaseConfig);
   db = firebase.database();
